@@ -1,0 +1,49 @@
+Exercise 1
+Design a relational database to manage information about the books that you have in your collection. You should have as much information as possible about your books - not just an author, title, description, chapters etc., but also information such as when you bought a book, start/end reading date etc. Try to be as detailed as possible.
+
+
+You should document your design processes (4 steps from the pre-work material) in PDF documents. At the end of the day, all students should present their solutions. You should create documentation for all today’s exercises. 
+
+
+
+Exercise 2
+A health center needs a Database with the case history of all its patients. The health center is divided into several units, each one having an identifier, a name and the floor on which it is located.
+
+
+The unit has a doctor in charge, characterized by his/her name, code and speciality. When patients arrive, they are admitted in a unit and are registered with their Social Security number, age and date of admission. While they are still in hospital, all interventions realised by doctors are written down, setting the date, the observed symptom and the prescribed treatment.
+
+
+Feel free to expand this example
+
+
+Exercise 3
+An auction house wants to maintain a database to register all its transactions. Products sold at auctions are grouped in sets.
+
+
+Each set has a catalogue number, start price, highest bid and remaining auction time. Products are characterised by a code, name, a brief description and a photo. Customers that participate in the auction must bid for a set (bids for individual products are not allowed). When a person bids, the amount, the date and the hour are registered. Customers are identified by a user name. Besides that, they have a password, a name and an e-mail address.
+
+
+Feel free to expand on this example.
+
+
+
+Exercise 4
+A transport company has a fleet of buses available, which are distributed on different routes. The company wants to create a database to keep information about these routes. A route is identified by a code. The total distance (in km.), the source and the destination of each route is stored. Besides, each bus has a license plate number, a model, its capacity (number of passengers) and the name of its driver. We assume that a bus can only be covering one route. Routes cover several cities. We’ll store the name of the city, the address and the telephone number of the bus station. To keep the stops organised, each bus stop has an order number. This number can be different depending on the route the city belongs to (one city can belong to several routes).
+
+
+Feel free to expand on this example.
+
+
+Exercise 5
+Social networks as Facebook use profiles to store information about their users. Now try to create a database for a Social network. You should store users' profiles. Users have a nick (unique), a password, their real name and a valid email account. Users can write comments, which are composed by text and publication date. Furthermore, users can appear in photos. A photo has a filename and an optional description. To tag users in the photos, a frame is used. The coordinates of these frames are stored in the photo, in order to know which users appear in each photo.
+
+
+Feel free to expand on this example.
+
+
+
+Exercise 6
+An airline needs a database to register information about its flights. Flights have a unique identifier. Furthermore, each flight has an origin and a destination airport assigned to it (considering only direct flights). Airports are identified by three letters (VLC-Valencia, BCN-Barcelona etc.). Besides that, the name of the city and the country of each airport are stored. Planes are assigned to different flights. A plane is identified by a registration number, the manufacturer, the model, capacity (max. number of passengers) and flight range (measured in hours). The assignment of a plane to one flight is not unique, so storing the date is needed too.
+
+
+Feel free to expand on this example.
